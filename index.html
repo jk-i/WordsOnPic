@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words on Pic</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <h1>Words On Pic</h1>
+        <div>
+            <input type="text" id="search-topic" placeholder="background">
+            <button id="get-photo">Get photo!</button>
+        </div>
+        <div class="buttons">
+            <button id="get-quote">Random quote</button>
+            <button id="get-font">Random font</button>
+        </div>
+    </header>
+    <main>
+        <div id="image-container">
+            <p contenteditable="true">Click text to edit or get a random quote by pressing the above button!</p>
+        </div>
+        <section id="credits">
+            <p>
+                <a href="#" id="pic-link">Photo</a> was taken by
+                <a href="#" id="pic-author">Author</a> on
+                <a href="https://www.pexels.com">
+                  <img src="https://images.pexels.com/lib/api/pexels.png" width="80px"/>
+                </a>
+            </p>
+            <p><a href="https://github.com/lukePeavey/quotable" target="_blank">Quote</a> by <span id="quote-author">you!</span> stylized in a <a href="https://fonts.google.com/?sort=popularity" target="_blank">Google Font</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        Credits: placekitten.com, Pexels, Quotable, Google Fonts &copy; Words on Pic (<a href="https://jk-i.github.io" target="_blank"></a>jk.)
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
